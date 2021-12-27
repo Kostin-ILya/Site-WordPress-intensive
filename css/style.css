@@ -48,13 +48,14 @@ h1 {
     color: #f9bf3b;
     text-align: center;
     line-height: 41px;
-
 }
 
 h2.title {
     margin-top: 20px;
 }
-
+.simple {
+    position: relative;
+}
 .simple .title_big {
     margin-top: 20px;
     font-size: 80px;    
@@ -63,6 +64,20 @@ h2.title {
     color: #ffffff;
     text-align: center;  
 }
+.simple .line {
+    position: absolute;
+    width: 100%;    
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.simple .line .line_1,.line_2 {
+    width: 292px;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+
 
 .promo .promo_text {
     padding: 0 13px;
